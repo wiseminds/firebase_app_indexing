@@ -9,7 +9,7 @@ To use the firebase_app_indexing plugin, [follow the instructions stated to add 
 
 ## Usage
 
-Import `package:firebase_app_indexing/firebase_app_indexing.dart` and use the methods in `MethodChannel` class.
+Import `package:firebase_app_indexing/firebase_app_indexing.dart`
 
 
 
