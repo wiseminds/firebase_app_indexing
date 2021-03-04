@@ -1,3 +1,2 @@
 ## 0.0.1
-
-* TODO: Describe initial release.
+Implemented firebase app indexing android ask
