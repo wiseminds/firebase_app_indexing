@@ -1,7 +1,6 @@
 name: firebase_app_indexing
 description: Firebase app indexing plugin, 
-version: 0.0.1
-author:
+version: 0.0.1 
 homepage: https://github.com/wiseminds/firebase_app_indexing
 
 environment:

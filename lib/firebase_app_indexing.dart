@@ -1,4 +1,5 @@
 import 'dart:async';
+import 'dart:io';
 
 import 'package:flutter/services.dart';
 /// Google Search uses information about the actions users take on public and personal content in an app to improve ranking for Search results and suggestions. To improve your users' experience when they search for content in your app, log user actions through the App Indexing API.
@@ -21,11 +22,13 @@ class FirebaseAppIndexing {
 
  /// log an action, start a session
   static start(String title, String url) async {
+    if(Platform.isAndroid)
     await _channel.invokeMethod('start', {'title': title, 'url': url});
   }
 
  /// log an action, end a session
    static stop(String title, String url) async {
+    if(Platform.isAndroid)
     await _channel.invokeMethod('stop', {'title': title, 'url': url});
   }
 }
