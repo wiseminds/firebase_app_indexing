@@ -1,6 +1,6 @@
 # firebase_app_indexing 
 
-[![pub package](https://img.shields.io/badge/Pub-0.0.1-green.svg)](https://pub.dartlang.org/packages/firebase_app_indexing)
+[![pub package](https://img.shields.io/badge/Pub-0.0.3-green.svg)](https://pub.dartlang.org/packages/firebase_app_indexing)
 
 A Flutter plugin integrating the official android SDK for firebase app indexing 
 
