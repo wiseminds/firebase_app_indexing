@@ -30,10 +30,10 @@ class _MyAppState extends State<MyApp> {
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             SizedBox(width: 600),
-            RaisedButton(
+            TextButton(
                 onPressed: () => FirebaseAppIndexing.start('Home', url),
                 child: Text('Start')),
-            RaisedButton(
+            TextButton(
                 onPressed: () => FirebaseAppIndexing.stop('Home', url),
                 child: Text('Stop')),
           ],
