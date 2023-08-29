@@ -1,3 +1,5 @@
+## 0.2.0
+Upgraded dependencies
 ## 0.1.0
 Upgraded to use null-safety
 ## 0.0.2

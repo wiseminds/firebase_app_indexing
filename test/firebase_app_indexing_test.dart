@@ -1,6 +1,6 @@
 import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:firebase_app_indexing/firebase_app_indexing.dart';
+// import 'package:firebase_app_indexing/firebase_app_indexing.dart';
 
 void main() {
   const MethodChannel channel = MethodChannel('firebase_app_indexing');
